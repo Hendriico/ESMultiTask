@@ -1,0 +1,25 @@
+Package: ESMultiTask
+Type: Package
+Title: Entropy Search for Multi-Task Bayesian Optimisation
+Version: 1.0
+Date: 2023-06-06
+Author: Hendriico Merila
+Maintainer: <hm4n17@soton.ac.uk>
+Description: This package implements an entropy search algorithm for multi-task Bayesian optimisation. It also implements a number of single-task Bayesian Optimisation algorithms as well as a number of additional help functions for Gaussian Processes.
+License: GPL (>= 2)
+Imports:
+    laGP,
+    DiceKriging,
+    magrittr,
+    dplyr,
+    lhs,
+    Rcpp,
+    RcppArmadillo,
+    RcppDist,
+    progress,
+    doRNG
+LinkingTo: 
+    RcppArmadillo,
+    Rcpp,
+    RcppDist
+RoxygenNote: 7.2.3

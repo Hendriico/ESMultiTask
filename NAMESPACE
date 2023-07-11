@@ -1,0 +1,7 @@
+useDynLib(ESMultiTask, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
+export("%>%")
+export("%dorng%")
+importFrom(magrittr,"%>%")
+importFrom(doRNG,"%dorng%")
