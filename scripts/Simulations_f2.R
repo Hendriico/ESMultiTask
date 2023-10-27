@@ -114,6 +114,3 @@ results %>%
   geom_jitter() +
   facet_wrap(~N)
 
-write.csv(results, "multitask_res_4d.csv", row.names = FALSE)
-
-results <- vroom::vroom("multitask_res1.csv")
